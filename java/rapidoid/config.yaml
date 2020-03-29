@@ -5,7 +5,7 @@ framework:
 build:
   - mvn compile assembly:single -q
 
-files: 
+files:
   - target/benchmark-0.0.1-SNAPSHOT-jar-with-dependencies.jar
 
 command: >
@@ -13,4 +13,3 @@ command: >
   -XX:+UseNUMA -XX:+UseParallelGC -XX:+AggressiveOpts 
   -cp target/benchmark-0.0.1-SNAPSHOT-jar-with-dependencies.jar
   benchmark.rapidoid.Main profiles=production
-  
