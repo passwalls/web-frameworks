@@ -1,9 +1,9 @@
 provider:
   default:
     language: 2.8
+  digitalocean:
+    language: 2.8
 
 files:
   - main.dart
   - pubspec.yaml
-
-docker_pause: 5
