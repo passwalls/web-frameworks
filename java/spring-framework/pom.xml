@@ -29,11 +29,7 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-<<<<<<< HEAD
 	        <version>[2,3)</version>
-=======
-            <version>(2,3]</version>
->>>>>>> 386500c1... chore(java): Stabilize builds
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
