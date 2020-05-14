@@ -5,6 +5,10 @@ provider:
     language: 1.45
 
 binaries:
-  - server
+  - target/release/server
 
 command: /opt/web/server
+
+sources:
+  - Cargo.toml
+  - src/**/*.rs
