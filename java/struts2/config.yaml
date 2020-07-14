@@ -5,7 +5,7 @@ framework:
 build:
   - mvn clean package
 
-files:
+binaries:
   - target/server-1.0.0-standalone.jar
 
 command: /usr/bin/java -XX:+UseNUMA -XX:+UseParallelGC -XX:+AggressiveOpts -jar /opt/web/target/server-1.0.0-standalone.jar --port 3000
